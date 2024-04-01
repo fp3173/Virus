@@ -1,0 +1,5 @@
+@echo off
+TIMEOUT /T 3
+ echo shutting down pc
+ TIMEOUT /T 3
+ shutdown
