@@ -1,0 +1,18 @@
+@echo off
+echo Virus starting
+TIMEOUT /T 3
+ ipconfig
+echo saving ip
+TIMEOUT /T 3
+echo Ip stolen
+TIMEOUT /T 3
+ echo shutting down pc
+ TIMEOUT /T 3
+ shutdown
+TIMEOUT /T 3 
+color 02
+:top
+echo %random% %random% %random% %random% %random% 
+%random% %random% %random% %random% %random% %random% %random% %random% %random%
+goto top
+clear
